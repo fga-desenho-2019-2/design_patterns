@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 class Subject(ABC):
     @abstractmethod
     def use_subject(self) -> None:
-        raise NotImplementedError()
+        pass
 
 class RealSubject(Subject):
     def use_subject(self) -> None:
